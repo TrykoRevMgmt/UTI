@@ -1,3 +1,3 @@
-# UTI
+# UTM
 
-Boilerplate for UTI/DNI script for property websites.
+Boilerplate for UTM/DNI script for property websites.
