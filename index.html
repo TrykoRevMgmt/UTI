@@ -5,29 +5,46 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>UTM Test</title>
+  <title>TRO Sandbox</title>
 </head>
 
 <body>
-  <h1>Using UTM's and DNI is super cool</h1>
-  <br>
-  <a href="https://en.wikipedia.org/wiki/UTM_parameters">Whats a UTM???      </a>
-  <a href="https://www.twilio.com/learn/call-and-text-marketing/part-3-how-to-use-dynamic-number-insertion-to-track-keywords">Whats DNI????</a>
-  <br>
-  <hr>
-  Click the below buttons to test sample UTD codes.<br>
-  <a href="index.html?zillow">Zillow</a>
-  <a href="index.html?adwords">AdWords</a>
-  <a href="index.html?facebook">Facebook</a>
-  <br>
-  <br>
-  <hr>
-  <h3>Output:</h3>
-  <h4>Email: <i id="email"></i>
-  </h4>
-  <h4>Phone: <i id="phone"></i>
-  </h4>
+  <div>
+    <h1>TRO Sandbox</h1>
+    <br><hr>
+    <h3>Using UTM's and DNI is super cool</h3>
+    <br>
+    <a href="https://en.wikipedia.org/wiki/UTM_parameters">Whats a UTM???      </a>
+    <a href="https://www.twilio.com/learn/call-and-text-marketing/part-3-how-to-use-dynamic-number-insertion-to-track-keywords">Whats DNI????</a>
+    <br>
+    <hr>
+    Click the below buttons to test sample UTD codes.<br>
+    <a href="index.html?utm_source=zillow&utm_medium=website&utm_campaign=firstcampaign">Zillow</a>
+    <a href="index.html?utm_source=AdWords&utm_medium=website&utm_campaign=firstcampaign">AdWords</a>
+    <a href="index.html?utm_source=Facebook&utm_medium=website&utm_campaign=firstcampaign">Facebook</a>
+
+    <br>
+    <br>
+    <hr>
+    <h3>UTM Lookup</h3>
+    <!-- <label for="leadSource">Lead Source</label> -->
+    <!-- <select class="select" id="leadSource" name="leadSource" style="width:150px"></select><br> -->
+    <label for="email">Email: </label>
+    <tex id="email"></tex><br>
+    <label>Phone Number: </label>
+    <tex id="phone"></tex><br>
+    <label>Website Link: </label>
+    <tex id="utm"></tex>
+  </div>
+  <br><br><hr>
+
+ <div class="container">
+   <h3>Conversion Testing</h3>
+   <button type="button" name="button">Conversion 1</button>
+   <button type="button" name="button">Conversion 2</button>
+ </div>
 </body>
 <script src="main.js" charset="utf-8"></script>
+<script src="script.js" charset="utf-8"></script>
 
 </html>
